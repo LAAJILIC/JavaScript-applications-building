@@ -1,5 +1,3 @@
-// Encapsulation: Protected Properties and Methods
-// Encapsulation: Private Class Fields and Methods
 
 class Account {
   // Public fields (instances)
@@ -22,8 +20,6 @@ class Account {
   }
 
   // Public methods
-
-  // Public interface
   getMovements() {
     return this.#movements;
   }
@@ -67,7 +63,7 @@ console.log(acc1.getMovements());
 console.log(acc1);
 Account.helper();
 
-//console.log(acc1.#movements); => Error beause it's private
+//console.log(acc1.#movements); => Error because it's private
 acc1
   .deposit(500)
   .deposit(4500)
