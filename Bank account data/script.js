@@ -211,7 +211,7 @@ btnLogin.addEventListener('click', function (e) {
       month: 'numeric',
       year: 'numeric',
     };
-    labelDate.textContent = new Intl.DateTimeFormat('ar-TN', options).format(
+    labelDate.textContent = new Intl.DateTimeFormat('en-US', options).format(
       now
     );
     /*
